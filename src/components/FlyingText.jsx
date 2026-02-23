@@ -6,7 +6,7 @@ const FlyingText = () => {
     { text: 'THE', delay: 0.6, position: 'top-[5%] sm:top-[8%] left-1/2 -translate-x-1/2 rotate-0 scale-110', sparkle: false },
     { text: 'BEST', delay: 1.2, position: 'top-[10%] sm:top-[14%] right-[10%] sm:right-[15%] rotate-[8deg] scale-90', sparkle: true },
     { text: 'FOR', delay: 1.8, position: 'top-[18%] sm:top-[22%] left-[20%] sm:left-[25%] rotate-[-5deg] scale-85', sparkle: false },
-    { text: 'ACCOUNTS', delay: 2.4, position: 'top-[26%] sm:top-[30%] right-[25%] sm:right-[30%] rotate-[5deg] scale-85', sparkle: false },
+    { text: 'ACCOUNTS', delay: 2.4, position: 'top-[24%] sm:top-[28%] right-[25%] sm:right-[30%] rotate-[5deg] scale-85', sparkle: false },
   ]
   
   return (
