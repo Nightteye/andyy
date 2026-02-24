@@ -88,10 +88,10 @@ function App() {
   
   const fireConfetti = () => {
     confetti({
-      particleCount: 100,
-      spread: 70,
+      particleCount: 120,
+      spread: 80,
       origin: { y: 0.6 },
-      colors: ['#E0D7FF', '#FFDACE', '#D1F5E9', '#FFC2D1'],
+      colors: ['#E0D7FF', '#FFDACE', '#D1F5E9', '#FFC2D1', '#FFD700', '#B5EAD7', '#FFDFD3', '#C7CEEA'],
       disableForReducedMotion: true,
       shapes: ['circle', 'square'],
       gravity: 0.8,
@@ -165,7 +165,7 @@ function App() {
             >
               <div className="glass-strong px-8 py-4 rounded-5xl shadow-glow">
                 <p className="text-lg sm:text-xl font-fredoka font-semibold text-lavender-500 text-kawaii">
-                  You're going to crush it, Andyy! ❤️
+                  🌟 You're going to crush it, Andyy! 🌸
                 </p>
               </div>
             </motion.div>

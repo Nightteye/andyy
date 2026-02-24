@@ -74,8 +74,8 @@ const ChickReveal = () => {
           <div className="absolute -bottom-2 left-1/4 w-12 h-6 bg-mint-200/60 rounded -rotate-3" />
         </motion.div>
         
-        {/* Floating hearts */}
-        {[...Array(3)].map((_, i) => (
+        {/* Floating cute icons */}
+        {['🌸', '✨', '🌟'].map((icon, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 0 }}
@@ -92,7 +92,7 @@ const ChickReveal = () => {
             }}
             className="absolute top-0 left-1/2 text-2xl"
           >
-            ❤️
+            {icon}
           </motion.div>
         ))}
       </motion.div>

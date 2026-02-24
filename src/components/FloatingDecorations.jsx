@@ -3,11 +3,17 @@ import { motion } from 'framer-motion'
 const FloatingDecorations = () => {
   const decorations = [
     { emoji: '✨', top: '10%', left: '8%', duration: 15, delay: 0, scale: 1 },
-    { emoji: '❤️', top: '75%', left: '12%', duration: 20, delay: 2, scale: 0.8 },
+    { emoji: '🌸', top: '75%', left: '12%', duration: 20, delay: 2, scale: 0.8 },
     { emoji: '🥚', top: '40%', left: '88%', duration: 25, delay: 1, scale: 1 },
     { emoji: '🍀', top: '15%', left: '80%', duration: 18, delay: 3, scale: 0.9 },
     { emoji: '☁️', top: '65%', left: '85%', duration: 22, delay: 1.5, scale: 1.2 },
-    { emoji: '✨', top: '50%', left: '5%', duration: 30, delay: 4, scale: 0.9 },
+    { emoji: '🌟', top: '50%', left: '5%', duration: 30, delay: 4, scale: 0.9 },
+    { emoji: '🦋', top: '30%', left: '3%', duration: 17, delay: 2.5, scale: 1 },
+    { emoji: '🌈', top: '5%', left: '45%', duration: 28, delay: 1, scale: 0.8 },
+    { emoji: '🌷', top: '85%', left: '60%', duration: 19, delay: 3.5, scale: 0.9 },
+    { emoji: '⭐', top: '20%', left: '55%', duration: 23, delay: 0.5, scale: 0.7 },
+    { emoji: '🍭', top: '60%', left: '92%', duration: 21, delay: 5, scale: 0.8 },
+    { emoji: '💫', top: '90%', left: '30%', duration: 16, delay: 2, scale: 1 },
   ]
   
   return (
