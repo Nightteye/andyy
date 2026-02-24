@@ -3,14 +3,14 @@ import { useState, useEffect } from 'react'
 
 const EggInteraction = ({ clickCount, isCracked, onEggClick }) => {
   const [isShaking, setIsShaking] = useState(false)
-  const [instructionText, setInstructionText] = useState("Tap the egg to de-stress...")
+  const [instructionText, setInstructionText] = useState("🥚 Tap the egg to de-stress... ✨")
   
   // Update instruction text based on click count
   useEffect(() => {
     if (clickCount === 1) {
-      setInstructionText("Hey! Be gentle! 🥚")
+      setInstructionText("Hey! Be gentle! 🥚✨")
     } else if (clickCount === 3) {
-      setInstructionText("Stop! It's gonna break! 😱")
+      setInstructionText("Oopsie! It's gonna break! 😱🌸")
     } else if (clickCount >= 5) {
       setInstructionText("")
     }

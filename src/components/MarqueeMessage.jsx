@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import './MarqueeMessage.css'
 
 const MarqueeMessage = () => {
-  const message = "Don't stress, do your best! • You are capable of amazing things • Good Luck Andyyy! • "
+  const message = "🌸 Don't stress, do your best! 🌟 • ✨ You are capable of amazing things ✨ • 🍀 Good Luck Andyyy! 🍀 • 💫 You've got this, superstar! 💫 • 🦋 Believe in yourself! 🦋 • 🌈 Sending good vibes your way! 🌈 • "
   
   return (
     <motion.div

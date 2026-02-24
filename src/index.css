@@ -9,7 +9,7 @@
   
   body {
     @apply bg-cream overflow-hidden;
-    background: radial-gradient(circle at 50% 30%, #FCFDF7 0%, #FAF8FF 50%, #F3EFFF 100%);
+    background: radial-gradient(circle at 30% 20%, #FFF5F8 0%, #FAF8FF 40%, #F0FFF8 70%, #FFFAF0 100%);
   }
 }
 
